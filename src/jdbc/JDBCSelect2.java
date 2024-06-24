@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class JDBCSelect2 {
@@ -20,8 +22,6 @@ public class JDBCSelect2 {
 		 *  
 		 */
 		
-		
-		//1. sql접속 정보를 선언
 		String url = "jdbc:oracle:thin:@localhost:1521:xe"; //접속주소
 		String uid = "HR"; //계정명
 		String upw = "HR"; //비밀번호
